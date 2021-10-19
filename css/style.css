@@ -1340,7 +1340,7 @@ a.btn {
   padding: 85px 55px 65px;
   background: #fff;
   border-radius: 40px;
-  text-align: center;
+  text-align: left;
 }
 @media only screen and (max-width: 1365px) {
   .details__item {
@@ -1389,10 +1389,10 @@ a.btn {
 }
 .details__preview {
   position: relative;
-  width: 240px;
+  width: 100%;
   height: 240px;
   margin: 0 auto 68px;
-  border-radius: 50%;
+  border-radius: 10%;
   font-size: 0;
   -webkit-transition: -webkit-transform 0.25s;
   transition: -webkit-transform 0.25s;
@@ -1419,7 +1419,7 @@ a.btn {
   }
 }
 .details__preview_cursor {
-  background: #ffd301;
+  background: #4c40f7;
 }
 .details__preview_cursor .details__img {
   top: 15px;
@@ -1460,7 +1460,7 @@ a.btn {
   }
 }
 .details__preview_color {
-  background: #ffbdbd;
+  background: #4c40f7;
 }
 .details__preview_color .details__img {
   top: 22px;
